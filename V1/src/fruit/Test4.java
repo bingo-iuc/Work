@@ -1,5 +1,7 @@
 package fruit;
 
+import org.junit.Test;
+
 public class Test4 {
     public static void main(String[] args) {
         FruitMark4 fruitMark4=new FruitMark4();
@@ -41,4 +43,11 @@ public class Test4 {
             }
         }
     }
+    @Test
+    public void test6(){
+        System.out.println(9.26*8+8*13+2*20*0.8+1*15-10);
+        System.out.println(Math.round(9.26*8+8*13+2*20*0.8-10));
+    }
+
+
 }
